@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced GraphQL Usage In Gatsby Websites</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <img
+        src="./images/smashing-logo1.png"
+        alt="Smashing magazine logo"
+        class="logo"
+      />
+
+      <nav>
+        <ul>
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Guides</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Membership</a></li>
+          <li>
+            <button class="more-button">
+              More
+              <img
+                src="https://www.pngkit.com/png/full/52-528239_cat-middle-finger-the-stickers-middle-finger.png"
+                alt="cat"
+                class="button-cat"
+              />
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div>
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search articles..."
+        />
+      </div>
+    </header>
+
+    <div class="div-container">
+      <aside class="left-aside">
+        <section>
+          <a href="#">
+            <img
+              src="https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/c4b597fa-4d9e-462b-897d-0c958fcb1f90/aleem-isiaka-200x200.jpg"
+              alt="Aleem Isiaka"
+              class="left-aside-img"
+            />
+          </a>
+          <h3 class="h3-left-aside">About the author</h3>
+          <p class="left-aside-p">
+            Aleem Isiaka is a software developer who wrote the most popular
+            React library, <a href="#">HereMaps</a>. He lives in Lagos, Nigeria,
+            and likes to blog at <a href="#">aleemisiaka.com/blog</a>.
+            <a href="#">More about Aleem …</a>
+          </p>
+        </section>
+      </aside>
+
+      <main>
+        <header>
+          <address>
+            <ul class="meta-ul">
+              <li class="time">
+                <time datetime="SEPTEMBER 16, 2020"> september 16, 2020 </time>
+              </li>
+
+              <li class="meta-li-comments">
+                <a href="#">3 comments</a>
+              </li>
+            </ul>
+          </address>
+
+          <h1>Advanced GraphQL Usage In Gatsby Websites</h1>
+        </header>
+
+        <div class="content-and-right-aside">
+          <div class="content-div">
+            <section class="summary-section">
+              <p class="summary-text">
+                <span class="quick-summary">Quick summary ↬</span>
+                In this article, Aleem Isiaka explains what GraphQL query
+                constructs are, and how they can be used to interact with the
+                data access layer of a Gatsby website. Let’s take a look at some
+                of the advanced use cases of GraphQL within a Gatsby website by
+                using matching data from different sources.
+              </p>
+            </section>
+          </div>
+
+          <aside class="right-aside">
+            <address class="meta-box">
+              <ul>
+                <li class="meta-box-icon-1">
+                  <span>20 min read</span>
+                </li>
+                <li class="meta-box-icon-2">
+                  <a href="#">API</a>, <a href="#">Servers</a>,
+                  <a href="#">JavaScript</a>
+                </li>
+                <li class="meta-box-icon-3">
+                  Share on <a href="#">Twitter</a> or <a href="#">LinkedIn</a>
+                </li>
+              </ul>
+            </address>
+          </aside>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <h3 class="footer-h3">Browse all smashing magazine topics</h3>
+        <ul class="footer-ul-topics">
+          <li><a href="#">Accessibility</a></li>
+          <li><a href="#">Android</a></li>
+          <li><a href="#">Animation</a></li>
+          <li><a href="#">Apps</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Design Patterns</a></li>
+          <li><a href="#">Design Systems</a></li>
+          <li><a href="#">E-Commerce</a></li>
+          <li><a href="#">Freebies</a></li>
+          <li><a href="#">Graphics</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">Illustrator</a></li>
+          <li><a href="#">Inspiration</a></li>
+          <li><a href="#">iOS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">Mobile</a></li>
+          <li><a href="#">Pattern Libraries</a></li>
+          <li><a href="#">Performance</a></li>
+          <li><a href="#">Photoshop</a></li>
+          <li><a href="#">Plugins</a></li>
+          <li><a href="#">React</a></li>
+          <li><a href="#">Responsive Web Design</a></li>
+          <li><a href="#">Service Workers</a></li>
+          <li><a href="#">Sketch</a></li>
+          <li><a href="#">Typography</a></li>
+          <li><a href="#">UI</a></li>
+          <li><a href="#">Usability</a></li>
+          <li><a href="#">User Experience</a></li>
+          <li><a href="#">Wallpapers</a></li>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">WordPress</a></li>
+          <li><a href="#">Workflow</a></li>
+        </ul>
+
+        <p class="footer-p1">
+          With a commitment to quality content for the design community.
+        </p>
+        <p>Founded by Vitaly Friedman and Sven Lennartz. 2006–2020.</p>
+        <p>
+          Smashing is proudly running on
+          <a href="#" class="footer-link-in-text">Netlify</a>.
+        </p>
+        <p>Fonts by <a href="#" class="footer-link-in-text">Latinotype</a>.</p>
+
+        <ul class="footer-ul-links">
+          <li><a href="#"> Write for us </a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">About us (Impressum)</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Membership login</a></li>
+          <li><a href="#">Delivery times</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
